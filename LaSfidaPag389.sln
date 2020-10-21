@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaSfidaPag389", "LaSfidaPag389\LaSfidaPag389.csproj", "{EB7AE395-A39F-4682-AECE-2B609F7DF600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova", "Prova\Prova.csproj", "{405C5E7F-67E3-4765-AD06-A4E5982FE3EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB7AE395-A39F-4682-AECE-2B609F7DF600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7AE395-A39F-4682-AECE-2B609F7DF600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7AE395-A39F-4682-AECE-2B609F7DF600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7AE395-A39F-4682-AECE-2B609F7DF600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405C5E7F-67E3-4765-AD06-A4E5982FE3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405C5E7F-67E3-4765-AD06-A4E5982FE3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405C5E7F-67E3-4765-AD06-A4E5982FE3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405C5E7F-67E3-4765-AD06-A4E5982FE3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68B61157-AF30-450B-808E-7A42916EE9A4}
+	EndGlobalSection
+EndGlobal
