@@ -7,12 +7,28 @@ namespace Prova
     {
         static void Main(string[] args)
         {
-            Lampadina l1 = new Lampadina("accesa");
-            for (int i = 0; i <=10; i++)
+            Lampadina l1 = new Lampadina("spenta");
+            bool fine = false;
+            do
             {
-                l1.Click();
-                Console.WriteLine($"Lampadina {l1.Descrizione()}.");
-            }
+                Console.WriteLine("Che operazione vuoi fare? (Click/Descrizione/Termina)");
+                string risposta = Console.ReadLine();
+                if (risposta =="Click" || risposta=="click")
+                {
+                    l1.Click();
+                    Console.WriteLine("Cliccato");
+                }
+                if (risposta == "Descrizione" || risposta == "descrizione")
+                {
+                    Console.WriteLine(l1.Descrizione());
+                }
+                if (risposta=="Termina" || risposta=="termina")
+                {
+                    fine = true;
+                    Console.WriteLine("Premi il tasto invio per terminare");
+                }
+            } while (fine == false);
+            Console.ReadLine();
         }
     }
 }

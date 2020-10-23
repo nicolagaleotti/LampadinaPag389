@@ -5,7 +5,7 @@ namespace LaSfidaPag389
     public class Lampadina
     {
         private string stato;
-        private const int numeroClickMassimi = 5;
+        private const int numeroClickMassimi = 10;
         private int contatore = 0;
         public Lampadina(string stato)
         {
